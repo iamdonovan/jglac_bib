@@ -21,15 +21,11 @@ install the following packages:
 
 From the directory where you have the `.bib` file that needs re-formatting: 
 
-::
-
     > $path_to_jglac_bib/reformat_bib.py references.bib
 
 This will create a new file, `references_reformatted.bib`, which you can use to re-compile your manuscript.
 
 Alternatively, you can add `$path_to_jglac_bib` to your PATH variable, and use `reformat_bib.py` directly:
-
-::
 
     > reformat_bib.py reference.bib
 
