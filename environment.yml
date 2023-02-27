@@ -1,0 +1,9 @@
+name: jglac_bib
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pip:
+      - bibtexparser
